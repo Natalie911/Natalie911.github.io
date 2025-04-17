@@ -68,6 +68,21 @@
       border-radius: 5px;
       font-size: 1em;
     }
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    form input[type="submit"] {
+      background-color: #222;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -93,7 +108,20 @@
       <li><strong>Interim Project Consulting:</strong> Providing temporary executive-level support for growth-phase challenges</li>
       <li><strong>Employee Experience:</strong> Onboarding, retention, and team wellbeing programs with intention</li>
     </ul>
+
+    <h2>Let’s Connect</h2>
+    <p>If you're interested in collaborating, please reach out below:</p>
+    <form action="mailto:natalie@nataliehelenconsulting.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name">
+      <input type="email" name="email" placeholder="Your Email">
+      <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send">
+    </form>
   </div>
+
+  <footer>
+    <p>&copy; 2025 Natalie Jackowski. All rights reserved.</p>
+  </footer>
 </body>
 </html>
 
