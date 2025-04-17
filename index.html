@@ -67,6 +67,20 @@ header h1 {
     font-size: 1em;
   }
 </style>
+  .photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  width: 200px; /* Or your preferred size */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
 </head>
 <body>
   <header>
@@ -76,7 +90,9 @@ header h1 {
     <p><em>Empowering modern teams to scale beautifully—with clarity, culture, and conscious hiring</em></p>
   </header>
 
-  <div class="container">
+  <div class="photo-container">
+  <img src="natalie-photo.jpg" alt="Natalie Jackowski">
+</div>
     <h2>About</h2>
     <p>I support visionary companies through people-first leadership consulting, strategic hiring design, and organizational refinement. With a background in operations, recruiting, wellness, and team culture, I help leaders align their internal ecosystem with business goals—gracefully and sustainably.</p>
 
