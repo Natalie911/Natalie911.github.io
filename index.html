@@ -14,6 +14,13 @@
       padding: 0;
       line-height: 1.7;
     }
+    .top-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding-top: 40px;
+    }
     header h1 {
       font-family: 'Playfair Display', serif;
       font-size: 2.75em;
@@ -27,17 +34,11 @@
       margin: 10px auto 0;
     }
     header img {
-      width: 100px;
-      height: 100px;
+      width: 90px;
+      height: 90px;
       object-fit: cover;
       border-radius: 10px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      margin-bottom: 20px;
-    }
-    .photo-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       margin-bottom: 20px;
     }
     .container {
@@ -83,24 +84,18 @@
       border: none;
       cursor: pointer;
     }
-  </style> .top-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding-top: 40px;
-}
-
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Natalie Jackowski</h1>
-    <p>Leadership Consultant | People Strategy & Talent Acquisition Specialist</p>
-    <p><em>Empowering modern teams to scale beautifully—with clarity, culture, and conscious hiring</em></p>
-  </header>
-
-  <div class="photo-container">
-    <img src="natalie-photo.jpg" alt="Natalie Jackowski">
+  <div class="top-container">
+    <div class="photo-container">
+      <img src="natalie-photo.jpg" alt="Natalie Jackowski">
+    </div>
+    <header>
+      <h1>Natalie Jackowski</h1>
+      <p>Leadership Consultant | People Strategy & Talent Acquisition Specialist</p>
+      <p><em>Empowering modern teams to scale beautifully—with clarity, culture, and conscious hiring</em></p>
+    </header>
   </div>
 
   <div class="container">
@@ -131,4 +126,3 @@
   </footer>
 </body>
 </html>
-
